@@ -256,8 +256,8 @@ main {
 
   .menuBtn,
   .contactBtn {
-    font-size: 1.2em;
-    padding: 14px 35px;
+    font-size: 0.8em;
+    padding: 10px 25px;
   }
 
   .menuBtn {
@@ -368,6 +368,6 @@ main {
 
 @media screen and (max-height: 600px) {
   main {
-    min-height: 150vh;
+    min-height: 175vh;
   }
 }
