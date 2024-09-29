@@ -56,7 +56,7 @@ header {
 
 .logo {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 700;
   text-decoration: none;
   color: #ede0d4;
@@ -81,7 +81,7 @@ header {
 
 .navLinks {
   font-weight: 500;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-decoration: none;
   color: #ede0d4;
   transition: all 0.3s ease 0s;
@@ -102,9 +102,9 @@ header {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
+  width: 15px;
+  height: 1px;
+  margin: 4px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #ede0d4;
@@ -130,12 +130,12 @@ main {
 
 .title {
   font-family: "Satisfy", cursive;
-  font-size: 5em;
+  font-size: 6em;
   color: #f6aa1c;
 }
 
 .tagline {
-  font-size: 3em;
+  font-size: 2.4em;
   font-weight: 500;
   color: #ede0d4;
 }
@@ -144,7 +144,7 @@ main {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 55px;
 }
 
 .menuBtn,
@@ -153,7 +153,7 @@ main {
   border: none;
   padding: 14px 35px;
   border-radius: 50px;
-  font-size: 1.25em;
+  font-size: 1.8em;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -190,23 +190,96 @@ main {
 
 /* Main End */
 
-@media screen and (max-width: 1440px) {
-  /* General Styles Start */
+/* Media Queries */
 
+@media screen and (max-width: 1630px) {
+  .title {
+    font-size: 4.5em;
+  }
+
+  .tagline {
+    font-size: 1.8em;
+  }
+
+  .menuBtn,
+  .contactBtn {
+    font-size: 1.35em;
+  }
+
+  .imgCtn img {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   html {
-    margin: auto 50px;
+    margin: auto 66px;
   }
 
   header {
-    padding: 25px 35px;
+    padding: 25px 66px;
   }
-
-  /* General Styles End */
-
-  /* Header Start */
 
   .logo {
     font-size: 1.5em;
+  }
+
+  .navUl li {
+    padding-left: 40px;
+  }
+
+  .navLinks {
+    font-size: 0.9em;
+  }
+
+  main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .labelCtn {
+    align-items: center;
+  }
+
+  .title {
+    font-size: 4em;
+  }
+
+  .tagline {
+    font-size: 1.6em;
+  }
+
+  .btnCtn {
+    margin-top: 50px;
+  }
+
+  .menuBtn,
+  .contactBtn {
+    font-size: 1.2em;
+    padding: 14px 35px;
+  }
+
+  .menuBtn {
+    margin-right: 10px;
+  }
+
+  .imgCtn img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    margin: auto 33px;
+  }
+
+  header {
+    padding: 25px 33px;
+  }
+
+  .logo {
+    font-size: 1.25em;
   }
 
   .hamburger {
@@ -218,11 +291,11 @@ main {
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(5px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-5px) rotate(-45deg);
   }
 
   .hamburger:hover .bar {
@@ -236,7 +309,7 @@ main {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 79px;
+    top: 74px;
     gap: 0;
     flex-direction: column;
     background-color: #220901;
@@ -250,26 +323,12 @@ main {
   }
 
   .navLinks {
-    font-size: 1em;
+    font-size: 0.75em;
     padding: 25px 50px;
   }
 
-  /* Header End */
-
-  /* Main Start */
-
-  main {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .labelCtn {
-    align-items: center;
-  }
-
   .imgCtn img {
-    width: 300px;
+    width: 250px;
   }
 
   .navUl.active {
@@ -277,21 +336,21 @@ main {
   }
 
   .title {
-    font-size: 2.2em;
+    font-size: 2.25em;
   }
 
   .tagline {
-    font-size: 1.4em;
+    font-size: 0.9em;
   }
 
   .btnCtn {
-    margin-top: 40px;
+    margin-top: 35px;
   }
 
   .contactBtn,
   .menuBtn {
-    padding: 10px 25px;
-    font-size: 0.8em;
+    padding: 8px 20px;
+    font-size: 0.675em;
   }
 
   .menuBtn:active {
@@ -305,6 +364,4 @@ main {
     color: #220901;
     border-color: #f6aa1c;
   }
-
-  /* Main End */
 }
