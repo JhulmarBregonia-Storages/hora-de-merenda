@@ -8,6 +8,8 @@
   #2e3138 Gunmetal
 */
 
+/* Genral Styles Start */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,6 +44,10 @@ html {
   text-decoration: none;
   color: #ede0d4;
 }
+
+/* General Styles End */
+
+/* Header Start */
 
 header {
   display: flex;
@@ -103,6 +109,10 @@ header {
   background-color: #ede0d4;
 }
 
+/* Header End */
+
+/* Main Start */
+
 main {
   display: flex;
   justify-content: space-between;
@@ -119,12 +129,12 @@ main {
 
 .title {
   font-family: "Satisfy", cursive;
-  font-size: 5em;
+  font-size: 7em;
   color: #f6aa1c;
 }
 
 .tagline {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 700;
   color: #ede0d4;
 }
@@ -133,16 +143,16 @@ main {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .menuBtn,
 .contactBtn {
   text-decoration: none;
   border: none;
-  padding: 10px 25px;
+  padding: 15px 35px;
   border-radius: 50px;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -173,7 +183,15 @@ main {
   border-color: #f6aa1c;
 }
 
+.imgCtn img {
+  width: 800px;
+}
+
+/* Main End */
+
 @media screen and (max-width: 1440px) {
+  /* General Styles Start */
+
   html {
     margin: auto 50px;
   }
@@ -181,6 +199,10 @@ main {
   header {
     padding: 25px;
   }
+
+  /* General Styles End */
+
+  /* Header Start */
 
   .logo {
     font-size: 1.5em;
@@ -231,6 +253,10 @@ main {
     padding: 25px 50px;
   }
 
+  /* Header End */
+
+  /* Main Start */
+
   main {
     flex-direction: column-reverse;
     justify-content: center;
@@ -257,8 +283,13 @@ main {
     font-size: 1.5em;
   }
 
+  .btnCtn {
+    margin-top: 50px;
+  }
+
   .contactBtn,
   .menuBtn {
+    padding: 10px 25px;
     font-size: 0.8em;
   }
 
@@ -273,4 +304,6 @@ main {
     color: #220901;
     border-color: #f6aa1c;
   }
+
+  /* Main End */
 }
