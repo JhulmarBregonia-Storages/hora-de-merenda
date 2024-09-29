@@ -322,7 +322,7 @@ main {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 80px;
+    top: 79px;
     gap: 0;
     flex-direction: column;
     background-color: #220901;
@@ -340,6 +340,7 @@ main {
     font-size: 0.75em;
     width: 150px;
     height: 50px;
+    padding-top: 5px;
   }
 
   .imgCtn img {
