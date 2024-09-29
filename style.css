@@ -365,3 +365,9 @@ main {
     border-color: #f6aa1c;
   }
 }
+
+@media screen and (max-height: 600px) {
+  main {
+    min-height: 150vh;
+  }
+}
