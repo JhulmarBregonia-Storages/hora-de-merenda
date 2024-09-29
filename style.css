@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
 
 /* 
   #220901 Licrorice
@@ -57,7 +56,6 @@ header {
 .logo {
   font-family: "Satisfy", cursive;
   font-size: 2em;
-  font-weight: 700;
   text-decoration: none;
   color: #ede0d4;
 }
@@ -80,6 +78,7 @@ header {
 }
 
 .navLinks {
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.2em;
   text-decoration: none;
@@ -135,16 +134,16 @@ main {
 }
 
 .tagline {
-  font-size: 2.4em;
-  font-weight: 500;
+  font-size: 1.5em;
   color: #ede0d4;
+  width: 600px;
 }
 
 .btnCtn {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 60px;
 }
 
 .menuBtn,
@@ -153,7 +152,8 @@ main {
   border: none;
   padding: 14px 35px;
   border-radius: 50px;
-  font-size: 1.8em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -185,7 +185,7 @@ main {
 }
 
 .imgCtn img {
-  width: 800px;
+  width: 600px;
 }
 
 /* Main End */
@@ -198,16 +198,22 @@ main {
   }
 
   .tagline {
-    font-size: 1.8em;
+    font-size: 1.125em;
+    width: 450px;
+  }
+
+  .btnCtn {
+    margin-top: 50px;
   }
 
   .menuBtn,
   .contactBtn {
-    font-size: 1.35em;
+    font-size: 0.9em;
+    padding: 12px 30px;
   }
 
   .imgCtn img {
-    width: 600px;
+    width: 500px;
   }
 }
 
@@ -247,11 +253,13 @@ main {
   }
 
   .tagline {
-    font-size: 1.6em;
+    font-size: 1em;
+    text-align: center;
+    width: 400px;
   }
 
   .btnCtn {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .menuBtn,
@@ -262,10 +270,15 @@ main {
 
   .menuBtn {
     margin-right: 10px;
+    border: #f6aa1c solid 1px;
+  }
+
+  .contactBtn {
+    border: #ede0d4 solid 1px;
   }
 
   .imgCtn img {
-    width: 400px;
+    width: 300px;
   }
 }
 
@@ -309,10 +322,11 @@ main {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 74px;
+    top: 80px;
     gap: 0;
     flex-direction: column;
     background-color: #220901;
+    border-radius: 0 0 0 10px;
     text-align: center;
     transition: 0.3s;
   }
@@ -324,11 +338,12 @@ main {
 
   .navLinks {
     font-size: 0.75em;
-    padding: 25px 50px;
+    width: 150px;
+    height: 50px;
   }
 
   .imgCtn img {
-    width: 250px;
+    width: 200px;
   }
 
   .navUl.active {
@@ -336,21 +351,30 @@ main {
   }
 
   .title {
-    font-size: 2.25em;
+    font-size: 3em;
   }
 
   .tagline {
-    font-size: 0.9em;
+    font-size: 0.75em;
+    max-width: 300px;
   }
 
   .btnCtn {
-    margin-top: 35px;
+    margin-top: 30px;
   }
 
   .contactBtn,
   .menuBtn {
-    padding: 8px 20px;
-    font-size: 0.675em;
+    font-size: 0.6em;
+    padding: 6px 15px;
+  }
+
+  .menuBtn {
+    border: #f6aa1c solid 1px;
+  }
+
+  .contactBtn {
+    border: #ede0d4 solid 1px;
   }
 
   .menuBtn:active {
