@@ -55,7 +55,7 @@ header {
 }
 
 .logo {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Satisfy", cursive;
   font-size: 2em;
   font-weight: 700;
   text-decoration: none;
@@ -102,8 +102,8 @@ header {
 
 .bar {
   display: block;
-  width: 15px;
-  height: 1px;
+  width: 17px;
+  height: 2px;
   margin: 4px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -291,11 +291,11 @@ main {
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(5px) rotate(45deg);
+    transform: translateY(6px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-5px) rotate(-45deg);
+    transform: translateY(-6px) rotate(-45deg);
   }
 
   .hamburger:hover .bar {
