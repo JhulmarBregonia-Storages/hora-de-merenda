@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
 
 /* 
   #220901 Licrorice
@@ -17,7 +17,7 @@
 
 html {
   margin: auto 100px;
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .home {
@@ -50,12 +50,12 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 25px 100px;
+  padding: 15px 100px;
 }
 
 .logo {
   font-family: "Satisfy", cursive;
-  font-size: 2em;
+  font-size: 39.99px;
   text-decoration: none;
   color: #ede0d4;
 }
@@ -78,9 +78,9 @@ header {
 }
 
 .navLinks {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: 500;
-  font-size: 1.2em;
   text-decoration: none;
   color: #ede0d4;
   transition: all 0.3s ease 0s;
@@ -129,113 +129,113 @@ main {
 
 .title {
   font-family: "Satisfy", cursive;
-  font-size: 6em;
+  font-size: 79.95px;
   color: #f6aa1c;
 }
 
 .tagline {
-  font-size: 1.5em;
+  font-size: 28.28px;
   color: #ede0d4;
-  width: 600px;
+  width: 650px;
 }
 
 .btnCtn {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .menuBtn,
 .contactBtn {
   text-decoration: none;
-  border: none;
-  padding: 14px 35px;
+  color: #220901;
+  background-color: #f6aa1c;
+  padding: 12px 36px;
+  border: #f6aa1c solid 2px;
   border-radius: 50px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
 
 .menuBtn {
-  margin-right: 15px;
-  background-color: #f6aa1c;
-  color: #220901;
-  border: #f6aa1c solid 2px;
+  margin-right: 10px;
 }
 
-.contactBtn {
-  background-color: #220901;
-  border: #ede0d4 solid 2px;
-  color: #ede0d4;
-}
-
-.menuBtn:hover {
-  background-color: #220901;
-  color: #ede0d4;
-  border-color: #ede0d4;
-}
-
+.menuBtn:hover,
 .contactBtn:hover {
-  background-color: #f6aa1c;
-  color: #220901;
-  border-color: #f6aa1c;
+  background-color: #220901;
+  color: #ede0d4;
+  border: #ede0d4 solid 2px;
 }
 
 .imgCtn img {
-  width: 600px;
+  width: 650px;
 }
 
 /* Main End */
 
 /* Media Queries */
 
-@media screen and (max-width: 1630px) {
+@media screen and (max-width: 1600px) {
+  .logo {
+    font-size: 35.99px;
+  }
+
+  .navUl li {
+    padding-left: 60px;
+  }
+
+  .navLinks {
+    font-size: 18px;
+  }
+
   .title {
-    font-size: 4.5em;
+    font-size: 71.96px;
   }
 
   .tagline {
-    font-size: 1.125em;
-    width: 450px;
+    font-size: 25.45px;
+    width: 600px;
   }
 
   .btnCtn {
-    margin-top: 50px;
+    margin-top: 35px;
   }
 
   .menuBtn,
   .contactBtn {
-    font-size: 0.9em;
-    padding: 12px 30px;
+    font-size: 18px;
+    padding: 10px 30px;
   }
 
   .imgCtn img {
-    width: 500px;
+    width: 550px;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1400px) {
   html {
     margin: auto 66px;
   }
 
   header {
-    padding: 25px 66px;
+    padding: 15px 66px;
   }
 
   .logo {
-    font-size: 1.5em;
+    font-size: 31.99px;
   }
 
   .navUl li {
-    padding-left: 40px;
+    padding-left: 50px;
   }
 
   .navLinks {
-    font-size: 0.9em;
+    font-size: 16px;
   }
 
   main {
@@ -249,32 +249,31 @@ main {
   }
 
   .title {
-    font-size: 4em;
+    font-size: 63.96px;
   }
 
   .tagline {
-    font-size: 1em;
+    font-size: 22.62px;
     text-align: center;
-    width: 400px;
   }
 
   .btnCtn {
     margin-top: 40px;
   }
 
+  .btnCtn {
+    margin-top: 30px;
+  }
+
   .menuBtn,
   .contactBtn {
-    font-size: 0.8em;
-    padding: 10px 25px;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: #f6aa1c solid 1px;
   }
 
   .menuBtn {
     margin-right: 10px;
-    border: #f6aa1c solid 1px;
-  }
-
-  .contactBtn {
-    border: #ede0d4 solid 1px;
   }
 
   .imgCtn img {
@@ -288,11 +287,11 @@ main {
   }
 
   header {
-    padding: 25px 33px;
+    padding: 15px 33px;
   }
 
   .logo {
-    font-size: 1.25em;
+    font-size: 23.99px;
   }
 
   .hamburger {
@@ -322,7 +321,7 @@ main {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 78px;
+    top: 65px;
     gap: 0;
     flex-direction: column;
     background-color: #220901;
@@ -337,9 +336,9 @@ main {
   }
 
   .navLinks {
-    font-size: 0.75em;
+    font-size: 12px;
     width: 150px;
-    padding: 20px 0;
+    padding: 15px 0;
   }
 
   .imgCtn img {
@@ -351,42 +350,22 @@ main {
   }
 
   .title {
-    font-size: 3em;
+    font-size: 47.97px;
   }
 
   .tagline {
-    font-size: 0.75em;
-    max-width: 300px;
+    font-size: 16.97px;
+    width: 350px;
   }
 
   .btnCtn {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .contactBtn,
   .menuBtn {
-    font-size: 0.6em;
-    padding: 6px 15px;
-  }
-
-  .menuBtn {
-    border: #f6aa1c solid 1px;
-  }
-
-  .contactBtn {
-    border: #ede0d4 solid 1px;
-  }
-
-  .menuBtn:active {
-    background-color: #220901;
-    color: #ede0d4;
-    border-color: #ede0d4;
-  }
-
-  .contactBtn:active {
-    background-color: #f6aa1c;
-    color: #220901;
-    border-color: #f6aa1c;
+    font-size: 12px;
+    padding: 6px 18px;
   }
 }
 
