@@ -318,7 +318,7 @@ main {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 64px;
+    top: 62px;
     gap: 0;
     flex-direction: column;
     background-color: #220901;
