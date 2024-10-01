@@ -55,7 +55,7 @@ header {
 
 .logo {
   font-family: "Satisfy", cursive;
-  font-size: 39.99px;
+  font-size: 35px;
   text-decoration: none;
   color: #ede0d4;
 }
@@ -79,7 +79,7 @@ header {
 
 .navLinks {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22.4px;
   font-weight: 500;
   text-decoration: none;
   color: #ede0d4;
@@ -129,21 +129,21 @@ main {
 
 .title {
   font-family: "Satisfy", cursive;
-  font-size: 79.95px;
+  font-size: 54.69px;
   color: #f6aa1c;
 }
 
 .tagline {
-  font-size: 28.28px;
+  font-size: 28px;
   color: #ede0d4;
-  width: 650px;
+  width: 600px;
 }
 
 .btnCtn {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .menuBtn,
@@ -151,7 +151,7 @@ main {
   text-decoration: none;
   color: #220901;
   background-color: #f6aa1c;
-  padding: 12px 36px;
+  padding: 10px 30px;
   border: #f6aa1c solid 2px;
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
@@ -182,7 +182,7 @@ main {
 
 @media screen and (max-width: 1600px) {
   .logo {
-    font-size: 35.99px;
+    font-size: 30px;
   }
 
   .navUl li {
@@ -190,26 +190,26 @@ main {
   }
 
   .navLinks {
-    font-size: 18px;
+    font-size: 19.2px;
   }
 
   .title {
-    font-size: 71.96px;
+    font-size: 46.88px;
   }
 
   .tagline {
-    font-size: 25.45px;
-    width: 600px;
+    font-size: 24px;
+    width: 520px;
   }
 
   .btnCtn {
-    margin-top: 35px;
+    margin-top: 25px;
   }
 
   .menuBtn,
   .contactBtn {
-    font-size: 18px;
-    padding: 10px 30px;
+    font-size: 19.2px;
+    padding: 8px 25px;
   }
 
   .imgCtn img {
@@ -227,7 +227,7 @@ main {
   }
 
   .logo {
-    font-size: 31.99px;
+    font-size: 31.25px;
   }
 
   .navUl li {
@@ -249,26 +249,23 @@ main {
   }
 
   .title {
-    font-size: 63.96px;
+    font-size: 39.06px;
   }
 
   .tagline {
-    font-size: 22.62px;
+    font-size: 20px;
     text-align: center;
+    width: 450px;
   }
 
   .btnCtn {
-    margin-top: 40px;
-  }
-
-  .btnCtn {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .menuBtn,
   .contactBtn {
     font-size: 16px;
-    padding: 8px 24px;
+    padding: 8px 25px;
     border: #f6aa1c solid 1px;
   }
 
@@ -291,7 +288,7 @@ main {
   }
 
   .logo {
-    font-size: 23.99px;
+    font-size: 20px;
   }
 
   .hamburger {
@@ -321,7 +318,7 @@ main {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 65px;
+    top: 60px;
     gap: 0;
     flex-direction: column;
     background-color: #220901;
@@ -336,7 +333,7 @@ main {
   }
 
   .navLinks {
-    font-size: 12px;
+    font-size: 12.8px;
     width: 150px;
     padding: 15px 0;
   }
@@ -349,22 +346,26 @@ main {
     right: 0;
   }
 
-  .title {
-    font-size: 47.97px;
-  }
-
-  .tagline {
-    font-size: 16.97px;
+  .labelCtn {
     width: 350px;
   }
 
+  .title {
+    font-size: 31.25px;
+  }
+
+  .tagline {
+    font-size: 16px;
+    width: 100%;
+  }
+
   .btnCtn {
-    margin-top: 25px;
+    margin-top: 20px;
   }
 
   .contactBtn,
   .menuBtn {
-    font-size: 12px;
+    font-size: 12.8px;
     padding: 6px 18px;
   }
 }
