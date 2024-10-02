@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap");
 
-/* Home Start */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,16 +26,6 @@ body {
   background-color: #3b2216;
   color: #f5f3e7;
 }
-
-/* 
-
-
-
-  Divider
-
-
-  
-*/
 
 header {
   display: flex;
@@ -111,7 +99,7 @@ header {
 
 
 
-  Divider
+  Home Start
 
 
   
@@ -179,9 +167,25 @@ header {
   width: 650px;
 }
 
-/* Home End */
+/* 
 
-/* Menu Page Start */
+
+
+  Home End
+
+
+
+*/
+
+/* 
+
+
+
+  Menu Page Start
+
+
+
+*/
 
 .menuHeader {
   font-family: "Raleway", sans-serif;
@@ -190,9 +194,25 @@ header {
   color: #595959;
 }
 
-/* Menu Page End */
+/* 
 
-/* About Page Start */
+
+
+  Menu Page End 
+
+
+
+*/
+
+/* 
+
+
+
+  About Page Start
+
+
+
+*/
 
 .aboutHeader {
   font-family: "Raleway", sans-serif;
@@ -201,9 +221,25 @@ header {
   color: #595959;
 }
 
-/* About Page End */
+/* 
 
-/* Contact Page Start */
+
+
+  About Page End 
+
+
+
+*/
+
+/* 
+
+
+
+  Contact Page Start 
+
+
+
+*/
 
 .contactHeader {
   font-family: "Raleway", sans-serif;
@@ -212,9 +248,25 @@ header {
   color: #595959;
 }
 
-/* Contact End */
+/*
 
-/* Media Queries */
+
+
+  Contact End
+
+
+
+*/
+
+/*
+
+
+
+  Media Queries
+
+
+
+*/
 
 @media screen and (max-width: 1600px) {
   .logo {
@@ -252,7 +304,9 @@ header {
     width: 550px;
   }
 
-  .contactTxt {
+  .menuHeader,
+  .aboutHeader,
+  .contactHeader {
     font-size: 48px;
   }
 }
@@ -322,7 +376,9 @@ header {
     width: 250px;
   }
 
-  .contactTxt {
+  .menuHeader,
+  .aboutHeader,
+  .contactHeader {
     font-size: 40px;
   }
 }
@@ -418,7 +474,9 @@ header {
     padding: 6px 18px;
   }
 
-  .contactTxt {
+  .menuHeader,
+  .aboutHeader,
+  .contactHeader {
     font-size: 32px;
   }
 }
