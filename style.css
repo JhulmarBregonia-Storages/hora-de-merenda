@@ -31,8 +31,12 @@ body {
 
 /* 
 
+
+
   Divider
 
+
+  
 */
 
 header {
@@ -105,8 +109,12 @@ header {
 
 /* 
 
+
+
   Divider
 
+
+  
 */
 
 .homeMain {
@@ -270,7 +278,7 @@ header {
     font-size: 18px;
   }
 
-  main {
+  .homeMain {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -359,7 +367,7 @@ header {
   .navUl {
     position: fixed;
     right: -100%;
-    top: 64px;
+    top: 62px;
     gap: 0;
     flex-direction: column;
     background-color: #3b2216;
@@ -416,7 +424,7 @@ header {
 }
 
 @media screen and (max-height: 600px) {
-  main {
+  .homeMain {
     min-height: 175vh;
   }
 }
